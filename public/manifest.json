@@ -1,0 +1,31 @@
+{
+  "name": "J.K Typing Master",
+  "short_name": "JKTM",
+  "description": "India's premier digital typing institute. Learn, practice, and get certified.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect width='192' height='192' rx='32' fill='%230f172a'/><text y='.9em' font-size='140' x='26'>⌨️</text></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect width='512' height='512' rx='80' fill='%230f172a'/><text y='.9em' font-size='380' x='66'>⌨️</text></svg>",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "productivity"],
+  "screenshots": [],
+  "shortcuts": [
+    { "name": "Practice", "url": "/learn", "description": "Start a practice session" },
+    { "name": "Games", "url": "/games", "description": "Play typing games" },
+    { "name": "Exams", "url": "/exams", "description": "Take a typing exam" }
+  ]
+}
